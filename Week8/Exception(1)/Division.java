@@ -4,10 +4,6 @@ public class Division extends BinaryExpression {
         super(left, right);
     }
 
-    public static double divide(double a, double b) throws ArithmeticException {
-        return a / b;
-    }
-
     @Override
     public String toString() {
         return "(" + left.toString() + " / " + right.toString() + ")";
